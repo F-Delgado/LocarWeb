@@ -1,0 +1,91 @@
+button{
+    background-color: red;
+    color: white;
+}
+
+.error{
+    color: red;
+    font-style: italic;
+} 
+.cabecalho {
+    font-size: 12px;
+    align-content: center;
+    color: crimson;
+    font-weight: bold;
+    width: 35%;
+    padding: 2px;
+}
+
+header {
+    background-color: silver;
+    margin: 2px;
+    padding: 4px; 
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.validacampos { 
+    margin: 20px;
+    font-size: 12px;
+    color: crimson;
+    font-weight: bold;
+}
+input[type=checkbox]{
+    display: block;
+    position: absolute;
+    margin-left: 130px;                
+}
+
+input[type=button],[type=reset]{
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+}
+
+
+input[type=text]:focus{
+    background-color: white;                                              
+}
+
+input[type=text],[type=password],[type=date], select{
+    position: relative;
+    background-color: silver;
+    margin-left: 130px; 
+    width: 250px;                                
+}
+label{
+    display: block;
+    position: absolute;
+    margin-left: 10px;                 
+}
+
+div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border: blue solid 2px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+/* para cada item dropdown da navbar,  muda a cor de fundo para branco e quebra linha quando nao couber
+na div */
+a.dropdown-item {
+    background-color: white;
+    white-space: normal;
+}
+/* ao passar o mouse em cima de cada item da navbar */
+a.dropdown-item:hover {
+    background-color: gray;
+}
